@@ -1,0 +1,192 @@
+.banner {
+    width: 100%;
+    min-height: 100%;
+    padding: 100px 0px 80px;
+    background: rgba(38, 38, 38, 0.2);
+    background: -webkit-linear-gradient(45deg, rgba(137, 24, 184, 0.6) 30%, rgba(196, 22, 169, 0.60) 100%);
+    background: -moz-linear-gradient(45deg, rgba(137, 24, 184, 0.6) 30%, rgba(196, 22, 169, 0.60) 100%);
+    background: -o-linear-gradient(45deg, rgba(137, 24, 184, 0.6) 30%, rgba(196, 22, 169, 0.60) 100%);
+    background: linear-gradient(45deg, rgba(137, 24, 184, 0.6) 30%, rgba(196, 22, 169, 0.60) 100%);
+}
+
+.logo {
+    height: 170px;
+}
+
+.logo-img {
+    width: 150px;
+    height: 150px;
+    margin: 0px auto;
+    transition-duration: .4s;
+}
+
+.logo-img:hover {
+    width: 180px;
+    height: 180px;
+    margin-top: -15px;
+}
+
+.title h1 {
+    color: #f9f9f9;
+    font-size: 300%;
+}
+
+.title h4 {
+    color: #f9f9f9;
+    /*text-transform: uppercase;*/
+    font-size: 90%;
+    letter-spacing: 1px;
+}
+
+
+/*==================================================================
+                            google store
+================================================================== */
+
+.stores {
+    width: 100%;
+}
+
+.store-gp {
+    margin: 0px auto;
+}
+
+.stores a {
+    text-decoration: none;
+    color: #FF9E15;
+    background: #fff;
+    border-radius: 4px;
+    margin: 6px;
+    float: left;
+    border: 2px solid rgba(255, 158, 21, 0.24);
+    text-align: center;
+}
+
+.stores a :focus,
+.stores a :hover {
+    color: #F75C30;
+}
+
+.store img {
+    width: auto;
+    height: 40px;
+}
+
+
+/*==================================================================
+                    Subscribe form
+================================================================== */
+
+#subs_form {
+    margin: 40px auto 0px;
+    width: 100%;
+    max-width: 450px;
+    padding: 0px 10px;
+}
+
+#subs_form h4 {
+    color: #f4f4f4;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 100%;
+    font-weight: 500;
+}
+
+#subs_form .form-group {
+    height: 40px;
+    border-radius: 40px;
+    display: block;
+    border: 2px solid #f4f4f4;
+    background: rgba(0, 0, 0, 0.12);
+    line-height: 40px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+#subs_form .form-group .form-control {
+    background: transparent;
+    width: 80%;
+    border: 0px;
+    outline: none;
+    box-shadow: none;
+    margin-top: -2px;
+    margin-bottom: 5px !important;
+    padding: 10px 20px;
+    color: #f4f4f4;
+    float: left;
+    text-transform: lowercase;
+}
+
+#subs_form .form-group .form-control::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #f4f4f4;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+#subs_form .form-group .form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #f4f4f4;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+#subs_form .form-group .form-control:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #f4f4f4;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+#subs_form .form-group .form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: #f4f4f4;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+#subs_form .form-group .submit-btn {
+    width: 20%;
+    float: left;
+    background: #FC861F;
+    outline: none;
+    box-shadow: 0px;
+    border: 0px;
+    text-align: center;
+    margin: 0px;
+    margin-top: -2px;
+    border-left: 2px solid #f4f4d4;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    color: #f4f4f4;
+    font-size: 80%;
+    text-transform: uppercase;
+}
+
+#subs_form .form-group .submit-btn:hover {
+    cursor: pointer;
+}
+
+#subs_form .form-group .submit-btn>img {
+    color: #f4f4d4;
+}
+
+#subs_form .form-group .form-control ::-webkit-input-placeholder,
+#subs_form .form-group .form-control ::-o-input-placeholder,
+#subs_form .form-group .form-control ::-moz-placeholder {
+    color: #EAEAEA;
+}
+
+#subs_form .form-group label {
+    float: left;
+    color: #f4f4f4;
+    font-weight: 200;
+    font-size: 80%;
+    letter-spacing: 0.5px;
+}
+
+#subs_form .form-group .form-text {
+    margin-top: -15px;
+    letter-spacing: 2px;
+}
